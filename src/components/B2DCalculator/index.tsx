@@ -33,11 +33,12 @@ export default function B2DCalculator() {
 
   return (
     <div className={styles.Container}>
+      <h2 className={styles.Title}>二进制转十进制</h2>
       <form>
         <input type="text" ref={binaryInputRef} onKeyDown={validateInput} />
         <button onClick={binary2Decimal}>开始转换</button>
       </form>
-      <div>{decimal}</div>
+      <div className={styles.Result}>十进制结果: {decimal}</div>
     </div>
   );
 }

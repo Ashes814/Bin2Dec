@@ -3,4 +3,19 @@
   background-color: aliceblue;
   border: 1px solid #000;
   height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Title {
+  font-size: 80px;
+}
+
+.Result {
+  margin-top: 20vh;
+  font-weight: bold;
+  font-size: 80px;
+  padding: 20px;
 }
