@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./App.css";
+import "./App.scss";
 import B2DCalculator from "./components/B2DCalculator";
 
 function App() {
